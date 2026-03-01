@@ -6,7 +6,7 @@ body{
 header{
     display: flex;
     justify-content: center;
-    background-image: url(../Arte/Fundo_logo_montfoster.png);
+    background-image: url(Arte/Fundo_logo_montfoster.png);
     border-bottom: 1px solid black;
 }
 #conteudoHeader {
