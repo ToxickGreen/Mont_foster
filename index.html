@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mont Foster forest departament</title>
+    <link rel="stylesheet" href="css_pages/index.css">
+</head>
+<body>
+    <header id = "cabecalho">
+        <div id="conteudoHeader">
+            <div id = "logo">
+                <img src="Arte/logo_montFoster.png" alt="Background" class = "Background">
+            </div>
+            <div id = "titulo">
+                <img src="Arte/montFoster_title.png" alt="Background" class = "Background">
+                <p>Inventário vinculado ao setor atribuído</p>
+            </div>
+        </div>
+    </header>
+    <div class = "container">
+        <nav>
+            <ul id="opcoesNavbar">
+                <li><a href="">[ Campo ] </a></li>
+                <li><a href="">[ Medicamentos ] </a></li>
+                <li><a href="">[ Proteção ] </a></li>
+                <li><a href="">[ Sobrevivência ] </a></li>
+                <li><a href="">[ Incidentes ] </a></li>
+                <li><a href="">[ Protocolos ] </a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="overlay">
+                <form id="login">
+                    <h3>Torre responsável</h3>
+                    <select type="list" class="loginInput" id="chooseTower"></select>
+                    <h3>Código de acesso</h3>
+                    <input type="text" class="loginInput" id="acessCodeInput" placeholder="Digite o setor correspondente">
+                    <button type="submit" id="submitButton">Enviar</button>
+                </form>
+            </div>
+
+            <div id="catalogo">
+                <!--Produtos de campo-->
+                <h3>Campo</h3>
+                <div class="produtos">
+                    <ul>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>C-01</p>
+                                <p>Nome: Lanterna</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href=""> 
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>C-02</p>
+                                <p>Nome: Rádio</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href=""> 
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>C-03</p>
+                                <p>Nome: Mapa</p>
+                                <p>Status: Disponível</p>
+                            </a> 
+                        </li>
+                        <li class="item">
+                            <a href=""> 
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>C-04</p>
+                                <p>Nome: Binóculos</p>
+                                <p>Status: Disponível</p>
+                            </a> 
+                        </li>
+                        <li class="item">
+                            <a href=""> 
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>C-05</p>
+                                <p>Nome: Apito emergencial</p>
+                                <p>Status: Disponível</p>
+                            </a> 
+                        </li>
+                        <li class="item">
+                            <a href=""> 
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>C-06</p>
+                                <p>Nome: Bússola</p>
+                                <p>Status: Disponível</p>
+                            </a> 
+                        </li>
+                        <li class="item">
+                            <a href=""> 
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>C-07</p>
+                                <p>Nome: Gravador portátil</p>
+                                <p>Status: Disponível</p>
+                            </a> 
+                        </li>
+                        <li class="item">
+                            <a href=""> 
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>C-08</p>
+                                <p>Nome: G.F.N.I</p> <!--gravador de frequências não identificadas-->
+                                <p>Status: Disponível</p>
+                            </a> 
+                        </li>
+                    </ul>
+                </div>
+                <!--Medicamentos-->
+                <h3>Medicamentos</h3>
+                <div class="produtos">
+                    <ul>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>M-01</p>
+                                <p>Nome: Kit Médico</p>
+                                <p>Status: disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>M-02</p>
+                                <p>Nome: Antibióticos</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>M-03</p>
+                                <p>Nome: Bandagens</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>M-04</p>
+                                <p>Nome: Analgésicos</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>M-05</p>
+                                <p>Nome: Sedativo</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>M-06</p>
+                                <p>Nome: Estimulante</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>M-07</p>
+                                <p>Nome: Estabilizador emocional</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Proteção-->
+                <h3>Proteção</h3>
+                <div class="produtos">
+                    <ul>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>P-01</p>
+                                <p>Nome: Revolver</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>P-02</p>
+                                <p>Nome Munição</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>P-03</p>
+                                <p>Nome: Armadilha</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>P-04</p>
+                                <p>Nome: Colete</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>P-05</p>
+                                <p>Nome: Máscara de gás</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>P-06</p>
+                                <p>Nome: Espingarda</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>P-07</p>
+                                <p>Nome: Protetor auditivo</p>
+                                <p>Status: Disponível</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Sobrevivência-->
+                <h3>Sobrevivência</h3>
+                <div class="produtos">
+                    <ul>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>S-01</p>
+                                <p>Nome: Fósforos</p>
+                                <p>Status: disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>S-02</p>
+                                <p>Nome: Ração de campo</p>
+                                <p>Status: disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>S-03</p>
+                                <p>Nome: Cantil</p>
+                                <p>Status: disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>S-04</p>
+                                <p>Nome: Canivete multiuso</p>
+                                <p>Status: disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>S-05</p>
+                                <p>Nome: Kit de abrigo</p>
+                                <p>Status: disponível</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="">
+                                <div class="placeholder">
+                                    <p>[sem imagem disponível]</p>
+                                </div>
+                                <p>S-06</p>
+                                <p>Nome: M.T.A</p> <!--Marcador de Trilhas Alternativas-->
+                                <p>Status: disponível</p>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <footer>
+        <div id="linksFinais">
+            <div id="maisInfo">
+                <ul>
+                    <a href=""><li>FAQ</li></a>
+                    <a href=""><li>Home</li></a>
+                    <a href=""><li>Sobre</li></a>
+                </ul>
+            </div>
+            <div id="social">
+                <div class="socialItem">
+                    <a href="https://github.com/ToxickGreen"><img src="Arte/GitHub_Icon.png" alt="logo guithub"></a>
+                    <h2>GitHub</h2>
+                </div>
+               <div class="socialItem">
+                    <a href="https://toxickgreen.itch.io/"><img src="Arte/ItchIo_icon.png" alt="logo Itch.io"></a>
+                    <h2>Itch.io</h2>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div id="espacoBranco">
+        <P>feito por Luiz Antônio</P>
+    </div>
+    <script src="javascript/home.js"></script>
+</body>
+</html>
